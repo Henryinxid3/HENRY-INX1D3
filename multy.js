@@ -131,8 +131,6 @@
             console.log("Connection closed. Please restart the script.");
           }
         }
-      });
-       }
     process.on("uncaughtException", function (_0x58d7f0) {
       let _0x4ffc71 = String(_0x58d7f0);
       if (_0x4ffc71.includes("Socket connection timeout") || _0x4ffc71.includes("rate-overlimit")) {
